@@ -38,9 +38,7 @@
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
-        sk {
-            quick-release;
-        };
+        sk { quick-release; };
     };
 
     macros {
@@ -100,12 +98,12 @@
 
         lower_layer {
             bindings = <
-&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP                                                                                         &kp C_MUTE     &kp C_VOL_DN  &kp C_VOL_UP   &none            &kp PAUSE_BREAK
-&trans        &none         &none       &none       &none         &kp HOME                                                          &kp LPAR         &kp LS(EQUAL)  &kp EQUAL     &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp PSCRN
-&trans        &none         &none       &kp UP      &none         &kp END                                                           &kp RPAR         &kp NUMBER_7   &kp N8        &kp N9         &kp KP_MINUS     &kp SLCK
-&trans        &none         &kp LEFT    &kp DOWN    &kp RIGHT     &kp PG_UP                                                         &kp PRCNT        &kp NUMBER_4   &kp N5        &kp NUMBER_6   &kp KP_PLUS      &none
-&trans        &kp K_CMENU   &none       &kp F11     &kp LEFT_GUI  &kp PG_DN  &trans  &trans  &to DEFAULT    &trans  &trans  &trans  &kp NON_US_BSLH  &kp NUMBER_1   &kp NUMBER_2  &kp N3         &kp KP_ENTER     &trans
-&trans        &kp CAPS      &kp INS     &kp F11     &kp F12                  &trans  &trans  &trans         &trans  &trans  &trans                   &kp N0         &kp NUMBER_0  &kp KP_DOT     &kp KP_ENTER     &trans
+&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP                                                                                   &kp C_MUTE     &kp C_VOL_DN  &kp C_VOL_UP   &none            &kp PAUSE_BREAK
+&trans        &none         &none       &none       &none         &kp HOME                                                          &kp LPAR   &kp LS(EQUAL)  &kp EQUAL     &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp PSCRN
+&trans        &none         &none       &kp UP      &none         &kp END                                                           &kp RPAR   &kp NUMBER_7   &kp N8        &kp N9         &kp KP_MINUS     &kp SLCK
+&trans        &none         &kp LEFT    &kp DOWN    &kp RIGHT     &kp PG_UP                                                         &kp PRCNT  &kp NUMBER_4   &kp N5        &kp NUMBER_6   &kp KP_PLUS      &none
+&trans        &kp K_CMENU   &none       &kp F11     &kp LEFT_GUI  &kp PG_DN  &trans  &trans  &to DEFAULT    &trans  &trans  &trans  &kp COLON  &kp NUMBER_1   &kp NUMBER_2  &kp N3         &kp KP_ENTER     &trans
+&trans        &kp CAPS      &kp INS     &kp F11     &kp F12                  &trans  &trans  &trans         &trans  &trans  &trans             &kp N0         &kp NUMBER_0  &kp DOT        &kp KP_ENTER     &trans
             >;
         };
 
