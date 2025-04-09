@@ -17,6 +17,11 @@
 #define MAGIC 2
 #define ENGRAM 3
 
+#define COMBO_KEY_CAPS_WORD <52 57>
+&caps_word {
+    continue-list = <UNDERSCORE MINUS BSPC>;
+};
+
 / {
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
@@ -39,6 +44,18 @@
         };
 
         sk { quick-release; };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        // Turn on CAPS_WORD when pressing both shift keys together
+        combo_caps_word {
+            timeout-ms = <75>;
+            key-positions = COMBO_KEY_CAPS_WORD;
+            layers = <0>;
+            bindings = <&caps_word>;
+        };
     };
 
     macros {
