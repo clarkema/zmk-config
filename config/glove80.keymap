@@ -137,12 +137,12 @@
 
         engram_layer {
             bindings = <
-&none            &none      &none                     &none           &none                                                                                                       &none          &none        &none              &none         &none
-&none            &kp GRAVE  &kp LPAR                  &kp RPAR        &kp SEMI    &kp COMMA                                                                            &none      &none          &none        &none              &none         &none
-&kp EXCL         &kp LBKT   &kp LBRC                  &kp RBRC        &kp RBKT    &kp QUESTION                                                                         &kp SEMI   &kp LSHIFT     &kp LCTRL    &kp LEFT_ALT       &kp LEFT_GUI  &none
-&kp NON_US_HASH  &kp CARET  &kp EQUAL                 &kp UNDERSCORE  &kp DOLLAR  &kp ASTERISK                                                                         &kp DOT    &kp BACKSPACE  &kp TAB      &kp SPACE          &kp KP_ENTER  &none
-&kp LS(BSLH)     &kp LT     &kp LS(NON_US_BACKSLASH)  &kp MINUS       &kp GT      &kp FSLH      &kp NON_US_BACKSLASH  &kp DOT    &kp ASTERISK     &none  &none  &none  &kp SLASH  &kp DEL        &kp LS(TAB)  &kp LC(BACKSPACE)  &none         &none
-&kp LS(APOS)     &kp AMPS   &kp GRAVE                 &kp EXCL        &kp PLUS                  &kp PERCENT           &kp COLON  &kp SEMICOLON    &none  &none  &none             &kp LPAR       &kp LBKT     &kp RBKT           &kp RPAR      &none
+&none            &none      &none                     &none           &none                                                                                                              &none          &none        &none              &none         &none
+&none            &kp GRAVE  &kp LPAR                  &kp RPAR        &kp SEMI    &kp COMMA                                                                            &none             &none          &none        &none              &none         &none
+&kp EXCL         &kp LBKT   &kp LBRC                  &kp RBRC        &kp RBKT    &kp QUESTION                                                                         &kp GRAVE         &kp LSHIFT     &kp LCTRL    &kp LEFT_ALT       &kp LEFT_GUI  &none
+&kp NON_US_HASH  &kp CARET  &kp EQUAL                 &kp UNDERSCORE  &kp DOLLAR  &kp ASTERISK                                                                         &kp LS(NUMBER_2)  &kp BACKSPACE  &kp TAB      &kp SPACE          &kp KP_ENTER  &none
+&kp LS(BSLH)     &kp LT     &kp LS(NON_US_BACKSLASH)  &kp MINUS       &kp GT      &kp FSLH      &kp NON_US_BACKSLASH  &kp DOT    &kp ASTERISK     &none  &none  &none  &kp SQT           &kp DEL        &kp LS(TAB)  &kp LC(BACKSPACE)  &none         &none
+&kp LS(APOS)     &kp AMPS   &kp GRAVE                 &kp EXCL        &kp PLUS                  &kp PERCENT           &kp COLON  &kp SEMICOLON    &none  &none  &none                    &kp LPAR       &kp LBKT     &kp RBKT           &kp RPAR      &none
             >;
         };
 
