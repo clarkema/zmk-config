@@ -148,12 +148,12 @@
 
         bonus {
             bindings = <
-&trans    &trans  &trans     &trans         &trans                                                                           &trans                 &trans                 &trans  &trans  &trans
-&trans    &trans  &trans     &trans         &trans         &trans                                                    &trans  &trans                 &trans                 &trans  &trans  &trans
-&trans    &trans  &trans     &trans         &trans         &trans                                                    &trans  &trans                 &trans                 &trans  &trans  &trans
-&trans    &trans  &trans     &kp BACKSPACE  &kp ENTER      &trans                                                    &trans  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS   &trans  &trans  &trans
-&trans    &trans  &kp LA(X)  &kp LS(LC(C))  &kp LS(LC(V))  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
-&kp LGUI  &trans  &trans     &trans         &trans                 &trans  &trans  &trans    &trans  &trans  &trans          &trans                 &trans                 &trans  &trans  &trans
+&trans    &trans  &trans     &trans         &trans                                                                           &trans                 &trans                &trans  &trans  &trans
+&trans    &trans  &trans     &trans         &trans         &trans                                                    &trans  &trans                 &trans                &trans  &trans  &trans
+&trans    &trans  &trans     &trans         &trans         &trans                                                    &trans  &kp RBKT               &kp LBKT              &trans  &trans  &trans
+&trans    &trans  &trans     &kp BACKSPACE  &kp ENTER      &trans                                                    &trans  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &trans  &trans  &trans
+&trans    &trans  &kp LA(X)  &kp LS(LC(C))  &kp LS(LC(V))  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp RBRC               &kp LBRC              &trans  &trans  &trans
+&kp LGUI  &trans  &trans     &trans         &trans                 &trans  &trans  &trans    &trans  &trans  &trans          &trans                 &trans                &trans  &trans  &trans
             >;
         };
 
