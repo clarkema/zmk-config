@@ -59,6 +59,13 @@
             layers = <0>;
             bindings = <&caps_word>;
         };
+
+        combo_ctrl_a {
+            timeout-ms = <75>;
+            key-positions = <69 74>;
+            layers = <0>;
+            bindings = <&kp LC(A)>;
+        };
     };
 
     macros {
