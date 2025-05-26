@@ -20,6 +20,11 @@
 
 &caps_word { continue-list = <UNDERSCORE MINUS BSPC>; };
 
+&sk {
+    quick-release;
+    lazy;
+};
+
 / {
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
@@ -40,8 +45,6 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
-
-        sk { quick-release; };
     };
 
     combos {
