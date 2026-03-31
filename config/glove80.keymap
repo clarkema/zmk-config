@@ -99,6 +99,14 @@
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 3>;
         };
+
+        umlaut_quote: macro_umlaut_quote {
+            compatible = "zmk,behavior-macro";
+            label = "MACRO_UMLAUT_QUOTE";
+            #binding-cells = <0>;
+            bindings = <&kp RALT &kp LS(NUMBER_2)>;
+            wait-ms = <10>;
+        };
     };
 
     keymap {
@@ -158,12 +166,12 @@
 
         bonus {
             bindings = <
-&trans  &trans  &trans          &trans         &trans                                                                              &trans                 &trans                &trans  &trans  &trans
-&trans  &trans  &trans          &trans         &trans         &trans                                                      &trans   &trans                 &trans                &trans  &trans  &trans
-&trans  &trans  &trans          &trans         &trans         &trans                                                      &trans   &kp RBKT               &kp LBKT              &trans  &trans  &trans
-&trans  &trans  &kp LEFT_SHIFT  &kp BACKSPACE  &kp ENTER      &kp LGUI                                                    &kp F21  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &trans  &trans  &trans
-&trans  &trans  &kp LA(X)       &kp LS(LC(C))  &kp LS(LC(V))  &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp RBRC               &kp LBRC              &trans  &trans  &trans
-&trans  &trans  &trans          &trans         &trans                   &trans  &trans  &trans    &trans  &trans  &trans           &trans                 &trans                &trans  &trans  &trans
+&trans  &trans  &trans          &trans         &trans                                                                                    &trans                 &trans                &trans  &trans  &trans
+&trans  &trans  &trans          &trans         &trans         &trans                                                      &trans         &trans                 &trans                &trans  &trans  &trans
+&trans  &trans  &trans          &trans         &trans         &trans                                                      &trans         &kp RBKT               &kp LBKT              &trans  &trans  &trans
+&trans  &trans  &kp LEFT_SHIFT  &kp BACKSPACE  &kp ENTER      &kp LGUI                                                    &kp F21        &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &trans  &trans  &trans
+&trans  &trans  &kp LA(X)       &kp LS(LC(C))  &kp LS(LC(V))  &trans    &trans  &trans  &trans    &trans  &trans  &trans  &umlaut_quote  &kp RBRC               &kp LBRC              &trans  &trans  &trans
+&trans  &trans  &trans          &trans         &trans                   &trans  &trans  &trans    &trans  &trans  &trans                 &kp RIGHT_ALT          &trans                &trans  &trans  &trans
             >;
         };
 
