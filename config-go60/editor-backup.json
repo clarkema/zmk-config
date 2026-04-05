@@ -424,10 +424,10 @@
         ]
       },
       {
-        "value": "&layer",
+        "value": "&kp",
         "params": [
           {
-            "value": 2
+            "value": "BSPC"
           }
         ]
       },
@@ -459,15 +459,15 @@
         "value": "&kp",
         "params": [
           {
-            "value": "BSPC"
+            "value": "LSHFT"
           }
         ]
       },
       {
-        "value": "&kp",
+        "value": "&layer",
         "params": [
           {
-            "value": "LSHFT"
+            "value": 2
           }
         ]
       },

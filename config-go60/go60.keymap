@@ -371,12 +371,12 @@
 
         layer_Base {
             bindings = <
-            &kp EQUAL  &kp N1     &kp N2   &kp N3               &kp N4  &kp N5                                                                                           &kp N6    &kp N7     &kp N8    &kp N9    &kp N0         &kp MINUS
-              &kp TAB   &kp Q      &kp W    &kp E                &kp R   &kp T                                                                                            &kp Y     &kp U      &kp I     &kp O     &kp P          &kp BSLH
-              &kp ESC   &kp A      &kp S    &kp D                &kp F   &kp G                                                                                            &kp H     &kp J      &kp K     &kp L  &kp SEMI           &kp SQT
- &magic LAYER_Magic 0   &kp Z      &kp X    &kp C                &kp V   &kp B                                                                                            &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &td_LAYER_Keypad
-                               &kp GRAVE  &kp DEL  &td_LAYER_SymbolNav                                                                                                           &kp LGUI   &kp LBKT  &kp RBKT
-                                                                                &kp BSPC  &kp LSHFT  &mt LCTRL ESC  &kp LALT  &mt RALT RET  &lt LAYER_EngramLayer SPACE
+            &kp EQUAL  &kp N1     &kp N2   &kp N3    &kp N4  &kp N5                                                                                                      &kp N6    &kp N7     &kp N8    &kp N9    &kp N0         &kp MINUS
+              &kp TAB   &kp Q      &kp W    &kp E     &kp R   &kp T                                                                                                       &kp Y     &kp U      &kp I     &kp O     &kp P          &kp BSLH
+              &kp ESC   &kp A      &kp S    &kp D     &kp F   &kp G                                                                                                       &kp H     &kp J      &kp K     &kp L  &kp SEMI           &kp SQT
+ &magic LAYER_Magic 0   &kp Z      &kp X    &kp C     &kp V   &kp B                                                                                                       &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &td_LAYER_Keypad
+                               &kp GRAVE  &kp DEL  &kp BSPC                                                                                                                      &kp LGUI   &kp LBKT  &kp RBKT
+                                                                     &kp LSHFT  &td_LAYER_SymbolNav  &mt LCTRL ESC  &kp LALT  &mt RALT RET  &lt LAYER_EngramLayer SPACE
             >;
         };
 
