@@ -464,14 +464,6 @@
         ]
       },
       {
-        "value": "&layer",
-        "params": [
-          {
-            "value": 2
-          }
-        ]
-      },
-      {
         "value": "&mt",
         "params": [
           {
@@ -479,6 +471,14 @@
           },
           {
             "value": "ESC"
+          }
+        ]
+      },
+      {
+        "value": "&layer",
+        "params": [
+          {
+            "value": 2
           }
         ]
       },
