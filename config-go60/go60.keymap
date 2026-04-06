@@ -376,7 +376,7 @@
               &kp ESC   &kp A      &kp S    &kp D     &kp F   &kp G                                                                                                       &kp H     &kp J      &kp K     &kp L  &kp SEMI           &kp SQT
  &magic LAYER_Magic 0   &kp Z      &kp X    &kp C     &kp V   &kp B                                                                                                       &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &td_LAYER_Keypad
                                &kp GRAVE  &kp DEL  &kp BSPC                                                                                                                      &kp LGUI   &kp LBKT  &kp RBKT
-                                                                     &kp LSHFT  &mt LCTRL ESC  &td_LAYER_SymbolNav  &kp LALT  &mt RALT RET  &lt LAYER_EngramLayer SPACE
+                                                                     &sk LSHFT  &mt LCTRL ESC  &td_LAYER_SymbolNav  &kp LALT  &mt RALT RET  &lt LAYER_EngramLayer SPACE
             >;
         };
 
@@ -426,11 +426,11 @@
 
         layer_EngramLayer {
             bindings = <
- &trans  &trans  &trans         &trans  &trans  &trans                                                  &trans    &trans   &trans        &trans  &trans  &trans
- &trans  &trans  &trans         &trans  &trans  &trans                                                  &trans    &trans   &trans        &trans  &trans  &trans
- &trans  &trans  &trans  &kp LS(MINUS)  &trans  &trans                                                  &trans  &kp BSPC  &kp TAB     &kp SPACE  &trans  &trans
- &trans  &trans  &trans      &kp MINUS  &trans  &trans                                                  &trans    &trans   &trans  &kp LC(BSPC)  &trans  &trans
-                 &trans         &trans  &trans                                                                    &trans   &trans        &trans
+ &trans  &trans  &trans         &trans  &trans  &trans                                                      &trans    &trans   &trans        &trans  &trans  &trans
+ &trans  &trans  &trans         &trans  &trans  &trans                                                   &kp GRAVE    &trans   &trans        &trans  &trans  &trans
+ &trans  &trans  &trans  &kp LS(MINUS)  &trans  &trans                                                  &kp LS(N2)  &kp BSPC  &kp TAB     &kp SPACE  &trans  &trans
+ &trans  &trans  &trans      &kp MINUS  &trans  &trans                                                     &kp SQT    &trans   &trans  &kp LC(BSPC)  &trans  &trans
+                 &trans         &trans  &trans                                                                        &trans   &trans        &trans
                                                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
