@@ -1432,7 +1432,13 @@
         "value": "&trans"
       },
       {
-        "value": "&trans"
+        "value": "&mkp",
+        "params": [
+          {
+            "value": "MB4",
+            "params": []
+          }
+        ]
       },
       {
         "value": "&trans"
@@ -1469,18 +1475,18 @@
         ]
       },
       {
+        "value": "&trans"
+      },
+      {
+        "value": "&trans"
+      },
+      {
         "value": "&to",
         "params": [
           {
             "value": 0
           }
         ]
-      },
-      {
-        "value": "&trans"
-      },
-      {
-        "value": "&trans"
       },
       {
         "value": "&trans"
