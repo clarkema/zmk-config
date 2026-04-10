@@ -161,6 +161,7 @@
 #define LAYER_Magic 3
 #define LAYER_Factory 4
 #define LAYER_EngramLayer 5
+#define LAYER_BonusLayer 6
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 #ifndef LAYER_Lower
@@ -371,12 +372,12 @@
 
         layer_Base {
             bindings = <
-            &kp EQUAL  &kp N1     &kp N2   &kp N3    &kp N4  &kp N5                                                                                                      &kp N6    &kp N7     &kp N8    &kp N9    &kp N0         &kp MINUS
-              &kp TAB   &kp Q      &kp W    &kp E     &kp R   &kp T                                                                                                       &kp Y     &kp U      &kp I     &kp O     &kp P          &kp BSLH
-              &kp ESC   &kp A      &kp S    &kp D     &kp F   &kp G                                                                                                       &kp H     &kp J      &kp K     &kp L  &kp SEMI           &kp SQT
- &magic LAYER_Magic 0   &kp Z      &kp X    &kp C     &kp V   &kp B                                                                                                       &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &td_LAYER_Keypad
-                               &kp GRAVE  &kp DEL  &kp BSPC                                                                                                                      &kp LGUI   &kp LBKT  &kp RBKT
-                                                                     &sk LSHFT  &mt LCTRL ESC  &td_LAYER_SymbolNav  &kp LALT  &mt RALT RET  &lt LAYER_EngramLayer SPACE
+            &kp EQUAL  &kp N1     &kp N2   &kp N3                     &kp N4  &kp N5                                                                                                      &kp N6    &kp N7     &kp N8    &kp N9    &kp N0         &kp MINUS
+              &kp TAB   &kp Q      &kp W    &kp E                      &kp R   &kp T                                                                                                       &kp Y     &kp U      &kp I     &kp O     &kp P          &kp BSLH
+              &kp ESC   &kp A      &kp S    &kp D                      &kp F   &kp G                                                                                                       &kp H     &kp J      &kp K     &kp L  &kp SEMI           &kp SQT
+ &magic LAYER_Magic 0   &kp Z      &kp X    &kp C                      &kp V   &kp B                                                                                                       &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH  &td_LAYER_Keypad
+                               &kp GRAVE  &kp DEL  &lt LAYER_BonusLayer BSPC                                                                                                                      &kp LGUI   &kp LBKT  &kp RBKT
+                                                                                      &sk LSHFT  &mt LCTRL ESC  &td_LAYER_SymbolNav  &kp LALT  &mt RALT RET  &lt LAYER_EngramLayer SPACE
             >;
         };
 
@@ -432,6 +433,17 @@
  &trans  &trans  &trans      &kp MINUS  &trans  &trans                                                     &kp SQT    &trans   &trans  &kp LC(BSPC)  &trans  &trans
                  &trans         &trans  &trans                                                                        &trans   &trans        &trans
                                                         &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_BonusLayer {
+            bindings = <
+ &trans  &trans     &trans         &trans         &trans    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans     &trans         &trans         &trans    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp LSHFT       &kp BSPC        &kp RET  &kp LGUI                                                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp LA(X)  &kp LC(LS(C))  &kp LC(LS(V))    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+                    &trans         &trans         &trans                                                                    &trans  &trans  &trans
+                                                                    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
