@@ -428,9 +428,9 @@
         layer_EngramLayer {
             bindings = <
  &trans  &trans     &trans         &trans  &trans  &trans                                                      &trans    &trans   &trans        &trans  &trans  &trans
- &trans  &trans     &trans         &trans  &trans  &trans                                                   &kp GRAVE    &trans   &trans        &trans  &trans  &trans
+ &trans  &trans     &trans         &trans  &trans  &trans                                                     &kp SQT    &trans   &trans        &trans  &trans  &trans
  &trans  &trans  &kp EQUAL  &kp LS(MINUS)  &trans  &trans                                                  &kp LS(N2)  &kp BSPC  &kp TAB     &kp SPACE  &trans  &trans
- &trans  &trans     &trans      &kp MINUS  &trans  &trans                                                     &kp SQT    &trans   &trans  &kp LC(BSPC)  &trans  &trans
+ &trans  &trans     &trans      &kp MINUS  &trans  &trans                                                   &kp GRAVE    &trans   &trans  &kp LC(BSPC)  &trans  &trans
                     &trans     &kp LS(N1)  &trans                                                                        &trans   &trans        &trans
                                                            &trans  &trans  &trans  &trans  &trans  &trans
             >;
