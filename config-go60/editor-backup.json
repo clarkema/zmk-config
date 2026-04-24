@@ -12,8 +12,8 @@
   "tags": [
     "qwerty"
   ],
-  "custom_defined_behaviors": "",
-  "custom_devicetree": "",
+  "custom_defined_behaviors": "    behaviors {\n        td_sticky_sft_gui: tap_dance_sticky_shift_gui {\n            compatible = \"zmk,behavior-tap-dance\";\n            #binding-cells = <0>;\n            tapping-term-ms = <250>;\n            bindings =\n                <&sk LSHIFT>,\n                <&kp LGUI>; // tap-then-hold = LGUI held\n        };\n    };",
+  "custom_devicetree": "&sk {\n    quick-release;\n    lazy;\n};",
   "config_parameters": [],
   "layout_parameters": {
     "cirque_touch_sensitivity": ""
@@ -460,10 +460,11 @@
         ]
       },
       {
-        "value": "&sk",
+        "value": "Custom",
         "params": [
           {
-            "value": "LSHFT"
+            "value": "&td_sticky_sft_gui",
+            "params": []
           }
         ]
       },
