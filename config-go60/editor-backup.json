@@ -463,8 +463,7 @@
         "value": "Custom",
         "params": [
           {
-            "value": "&td_sticky_sft_gui",
-            "params": []
+            "value": "&td_sticky_sft_gui"
           }
         ]
       },
@@ -1132,7 +1131,7 @@
             "value": "LS",
             "params": [
               {
-                "value": "N9"
+                "value": "N0"
               }
             ]
           }
@@ -1145,7 +1144,7 @@
             "value": "LS",
             "params": [
               {
-                "value": "N0"
+                "value": "N9"
               }
             ]
           }

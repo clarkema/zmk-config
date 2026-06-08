@@ -406,12 +406,12 @@
 
         layer_SymbolNav {
             bindings = <
-              &kp INS      &kp F1      &kp F2    &kp F3        &kp F4        &kp F5                                                      &kp F6      &kp F7           &kp F8         &kp F9          &kp F10    &kp F11
-             &kp SLCK  &kp LS(N1)    &kp HOME    &kp UP       &kp END     &kp PG_UP                                                  &kp LS(N9)  &kp LS(N0)           &kp UP     &kp LS(N5)        &kp K_APP    &kp F12
-             &kp CAPS  &kp LS(N2)    &kp LEFT  &kp DOWN     &kp RIGHT     &kp PG_DN                                                  &kp LS(N4)    &kp LEFT         &kp DOWN      &kp RIGHT  &kp PAUSE_BREAK  &kp PSCRN
- &magic LAYER_Magic 0  &kp LS(N3)    &kp LBKT  &kp RBKT  &kp LS(LBKT)  &kp LS(RBKT)                                                  &kp LS(N7)  &kp LS(N8)    &kp LS(MINUS)  &kp LS(EQUAL)        &kp LSHFT  &kp LCTRL
-                                   &kp LS(N6)    &trans      &mkp MB4                                                                                &trans  &kp LC(LS(TAB))    &kp LC(TAB)
-                                                                                     &trans  &trans   &to 0  &trans  &trans  &trans
+              &kp INS      &kp F1      &kp F2    &kp F3        &kp F4        &kp F5                                                              &kp F6      &kp F7           &kp F8         &kp F9          &kp F10    &kp F11
+             &kp SLCK  &kp LS(N1)    &kp HOME    &kp UP       &kp END     &kp PG_UP                                                          &kp LS(N0)  &kp LS(N9)           &kp UP     &kp LS(N5)        &kp K_APP    &kp F12
+             &kp CAPS  &kp LS(N2)    &kp LEFT  &kp DOWN     &kp RIGHT     &kp PG_DN                                                          &kp LS(N4)    &kp LEFT         &kp DOWN      &kp RIGHT  &kp PAUSE_BREAK  &kp PSCRN
+ &magic LAYER_Magic 0  &kp LS(N3)    &kp LBKT  &kp RBKT  &kp LS(LBKT)  &kp LS(RBKT)                                                          &kp LS(N7)  &kp LS(N8)    &kp LS(MINUS)  &kp LS(EQUAL)        &kp LSHFT  &kp LCTRL
+                                   &kp LS(N6)    &trans      &mkp MB4                                                                                        &trans  &kp LC(LS(TAB))    &kp LC(TAB)
+                                                                                     &trans  &trans  &to LAYER_Base  &trans  &trans  &trans
             >;
         };
 
