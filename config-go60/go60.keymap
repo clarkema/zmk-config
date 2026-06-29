@@ -64,6 +64,22 @@
 
 
 
+/* Locale-specific keycodes */
+
+#define GB_N2 N2
+#define GB_N3 N3
+#define GB_N4 N4
+#define GB_A A
+#define GB_E E
+#define GB_I I
+#define GB_O O
+#define GB_U U
+#define GB_POUND BACKSLASH
+#define GB_BACKSLASH NON_US_BACKSLASH
+#define GB_GRAVE GRAVE
+#define GB_APOS SQT
+
+
 
 /* Key positions */
 
@@ -439,12 +455,12 @@
 
         layer_EngramLayer {
             bindings = <
- &trans  &trans     &trans         &trans  &trans  &trans                                                      &trans    &trans   &trans        &trans  &trans  &trans
- &trans  &trans     &trans         &trans  &trans  &trans                                                     &kp SQT    &trans   &trans        &trans  &trans  &trans
- &trans  &trans  &kp EQUAL  &kp LS(MINUS)  &trans  &trans                                                  &kp LS(N2)  &kp BSPC  &kp TAB     &kp SPACE  &trans  &trans
- &trans  &trans     &trans      &kp MINUS  &trans  &trans                                                   &kp GRAVE    &trans   &trans  &kp LC(BSPC)  &trans  &trans
-                    &trans     &kp LS(N1)  &trans                                                                        &trans   &trans        &trans
-                                                           &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans     &trans         &trans               &trans  &trans                                                      &trans    &trans   &trans        &trans  &trans  &trans
+ &trans  &trans     &trans         &trans               &trans  &trans                                                     &kp SQT    &trans   &trans        &trans  &trans  &trans
+ &trans  &trans  &kp EQUAL  &kp LS(MINUS)               &trans  &trans                                                  &kp LS(N2)  &kp BSPC  &kp TAB     &kp SPACE  &trans  &trans
+ &trans  &trans     &trans      &kp MINUS  &kp LS(NON_US_BSLH)  &trans                                                   &kp GRAVE    &trans   &trans  &kp LC(BSPC)  &trans  &trans
+                    &trans     &kp LS(N1)               &trans                                                                        &trans   &trans        &trans
+                                                                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 

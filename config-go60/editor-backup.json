@@ -1,7 +1,7 @@
 {
   "keyboard": "go60",
   "firmware_api_version": "1",
-  "locale": "en-US",
+  "locale": "en-GB",
   "uuid": "",
   "parent_uuid": "d1380eff-30da-480f-ad0d-6f068344c165",
   "unlisted": false,
@@ -2447,7 +2447,17 @@
         ]
       },
       {
-        "value": "&trans"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "LS",
+            "params": [
+              {
+                "value": "NON_US_BSLH"
+              }
+            ]
+          }
+        ]
       },
       {
         "value": "&trans"
